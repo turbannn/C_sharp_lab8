@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAB8.WpfApp", "LAB8.WpfApp\LAB8.WpfApp.csproj", "{7F08C817-39D7-49FC-9317-38789B8091FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAB8.BLL", "LAB8.BLL\LAB8.BLL.csproj", "{58539E76-CE8C-4833-AF07-57829335F367}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F08C817-39D7-49FC-9317-38789B8091FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F08C817-39D7-49FC-9317-38789B8091FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F08C817-39D7-49FC-9317-38789B8091FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F08C817-39D7-49FC-9317-38789B8091FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58539E76-CE8C-4833-AF07-57829335F367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58539E76-CE8C-4833-AF07-57829335F367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58539E76-CE8C-4833-AF07-57829335F367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58539E76-CE8C-4833-AF07-57829335F367}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8E5384F-9753-448B-85FF-9B1D732E2B56}
+	EndGlobalSection
+EndGlobal

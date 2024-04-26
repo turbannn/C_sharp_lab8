@@ -1,0 +1,32 @@
+﻿<Window x:Class="LAB8.WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB8.WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid Margin="0,0,0,348">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Name="AddStudent" Content="Add Student" FontSize="15" Click="MainAddStudentButtonClick"></Button>
+            <Button Grid.Column="1" Name="RemoveStudent" Content="Remove Student" FontSize="15" Click="MainRemoveButtonStudentClick"></Button>
+            <Button Grid.Column="2" Name="MainAddGrade" Content="Add Grade" FontSize="15" Click="MainAddGradesToStudentClick"></Button>
+        </Grid>
+        <Grid Margin="0,86,0,0">
+            <DataGrid Name="DataGridTable" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="asdasdfName" Binding="{Binding Path = FirstName}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="2Surname" Binding="{Binding Path= LastName}" ></DataGridTextColumn>
+                    <DataGridTextColumn Header="3Fac" Binding="{Binding Path= Faculty}" ></DataGridTextColumn>
+                    <DataGridTextColumn Header="4IDX" Binding="{Binding Path= Index}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Grades" Binding="{Binding Path= GradesAsString}" ></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>
